@@ -16,4 +16,33 @@
         android:textSize="16sp"
         android:text=" "/>
 
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Butter:Milk"
+            android:buttonTint="#2196F3" />
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sardine:Fish"
+            android:buttonTint="#2196F3" />
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crunchy:Crackers"
+            android:buttonTint="#2196F3" />
+        <RadioButton
+            android:id="@+id/radio4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wax:Candles"
+            android:buttonTint="#2196F3" />
+    </RadioGroup>
+
 </LinearLayout>
