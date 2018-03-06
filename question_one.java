@@ -1,8 +1,10 @@
 package com.example.revati.quiz;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Html;
+import android.view.View;
 import android.widget.Button;
 import android.widget.RadioGroup;
 import android.widget.TextView;
@@ -28,5 +30,10 @@ public class question_one extends AppCompatActivity {
                     Toast.makeText(question_one.this,"Incorrect Choice",Toast.LENGTH_SHORT).show();
             }
         });
+    }
+
+    public void nextQuestion(View view){
+        Intent intent = new Intent(question_one.this,question_two.class);
+        startActivity(intent);
     }
 }
